@@ -1,0 +1,32 @@
+
+<div class="container">
+    <div class="header">
+      <h1>Weather App</h1>
+    <div>
+  </div>
+  <hr class="better">
+  <div class="weather">
+    <div>
+        <h2>{{city2}}</h2>
+        <img src="{{icon}}">
+    </div>
+    <hr class="better">
+    <div>
+        <p>Summary: {{summary}}</p>
+        <p>Temperature: {{temperature}} °C</p>
+        <p>Feels: {{feels}} °C</p>
+        <p>Pressure: {{pressure}} hPa</p>
+        <p>Humidity: {{humidity}} %</p>
+        <hr class="better">
+    </div>
+
+    <div>
+      <label>Select city:</label>
+      <input type="text" [(ngModel)]="city" />
+    </div>
+
+    <button (click)="getWeather()">SELECT</button>
+  </div>
+</div>
+
+
