@@ -8,4 +8,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Preview
 
-![image](https://user-images.githubusercontent.com/46270379/119242650-e8fb4280-bb5f-11eb-99fc-3bf942599982.png)
+![image](https://i.imgur.com/MznQ7gE.png)
